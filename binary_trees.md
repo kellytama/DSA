@@ -20,6 +20,11 @@ public:
 ```
 <img width="690" alt="Screenshot 2025-05-12 at 3 08 15 PM" src="https://github.com/user-attachments/assets/63862eb9-1f06-40d0-b6d9-da8c33a7567a" />
 
+Mathematically, a binary tree is: 
+- a connected, undirected graph with no cycles.
+	- connected: a path exists between every pair of vertices. Starting from any node, you can reach another node by traveling through the edges
+	- undirected: trees are typically depicted and implemented as directed (pointers to left and right children) for implementation simplicity, but theoretically, it can be undirected since the directions aren't important. 
+
 ## Terminology
 - **Tree**: 
 	- A type of graph, represents hierarchical data (parent-child relationships). There are several types of trees, the most common being binary trees (trees with nodes that have at most 2 children - left child and right child)
